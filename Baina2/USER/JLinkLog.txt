@@ -1,0 +1,37 @@
+
+T1AFC 000:469 SEGGER J-Link V4.96d Log File (0000ms, 0282ms total)
+T1AFC 000:469 DLL Compiled: Jan 29 2015 11:45:37 (0000ms, 0282ms total)
+T1AFC 000:469 Logging started @ 2018-11-03 13:33 (0001ms, 0283ms total)
+T1AFC 000:470 JLINK_SetWarnOutHandler(...) (0000ms, 0283ms total)
+T1AFC 000:470 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0276ms, 0559ms total)
+T1AFC 000:746 JLINK_SetErrorOutHandler(...) (0000ms, 0559ms total)
+T1AFC 000:746 JLINK_ExecCommand("ProjectFile = "C:\Users\asus\Desktop\Baina2\USER\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0560ms total)
+T1AFC 000:747 JLINK_ExecCommand("Device = STM32F105R8", ...)Device "STM32F105R8" selected.  returns 0x00 (0001ms, 0561ms total)
+T1AFC 000:748 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0561ms total)
+T1AFC 000:748 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0561ms total)
+T1AFC 000:748 JLINK_GetDLLVersion()  returns 49604 (0001ms, 0562ms total)
+T1AFC 000:749 JLINK_GetFirmwareString(...) (0000ms, 0562ms total)
+T1AFC 000:749 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0562ms total)
+T1AFC 000:749 JLINK_GetCompileDateTime() (0000ms, 0562ms total)
+T1AFC 000:749 JLINK_GetFirmwareString(...) (0000ms, 0562ms total)
+T1AFC 000:749 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0562ms total)
+T1AFC 000:749 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0005ms, 0567ms total)
+T1AFC 000:754 JLINK_SetSpeed(1000) (0000ms, 0567ms total)
+T1AFC 000:755 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0567ms total)
+T1AFC 000:755 JLINK_Reset() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+              JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (6560ms, 13684ms total)
+T1AFC 013:875 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (3538ms, 17222ms total)
+T1AFC 017:425 JLINK_GetFirmwareString(...) (0000ms, 17222ms total)
+T1AFC 082:148 JLINK_Close() (0001ms, 17223ms total)
+T1AFC 082:148  (0001ms, 17223ms total)
+T1AFC 082:148 Closed (0001ms, 17223ms total)
